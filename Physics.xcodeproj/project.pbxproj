@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,40 @@
 		4E05BA9224B55B7D00489CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E05BA9124B55B7D00489CBC /* Preview Assets.xcassets */; };
 		4E05BA9D24B55B7D00489CBC /* PhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BA9C24B55B7D00489CBC /* PhysicsTests.swift */; };
 		4E05BAA824B55B7D00489CBC /* PhysicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAA724B55B7D00489CBC /* PhysicsUITests.swift */; };
+		4E05BABA24B55B9200489CBC /* Brownian motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAB624B55B9200489CBC /* Brownian motion.swift */; };
+		4E05BABB24B55B9200489CBC /* TheAtomicHypothesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAB724B55B9200489CBC /* TheAtomicHypothesis.swift */; };
+		4E05BABC24B55B9200489CBC /* Gases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAB824B55B9200489CBC /* Gases.swift */; };
+		4E05BABD24B55B9200489CBC /* DifferenceBetweenSolidsAndLiquids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAB924B55B9200489CBC /* DifferenceBetweenSolidsAndLiquids.swift */; };
+		4E05BAC324B55B9A00489CBC /* Nuclei and Particles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BABF24B55B9A00489CBC /* Nuclei and Particles.swift */; };
+		4E05BAC424B55B9A00489CBC /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAC024B55B9A00489CBC /* Intro.swift */; };
+		4E05BAC524B55B9A00489CBC /* Physics before 1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAC124B55B9A00489CBC /* Physics before 1920.swift */; };
+		4E05BAC624B55B9A00489CBC /* Quantum physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAC224B55B9A00489CBC /* Quantum physics.swift */; };
+		4E05BAC824B55BA100489CBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05BAC724B55BA100489CBC /* Constants.swift */; };
+		4E05BACB24B55C1200489CBC /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4E05BACA24B55C1200489CBC /* PureSwiftUI */; };
+		4E1AEE0424D5B6FE005F7A21 /* LedSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AEE0324D5B6FE005F7A21 /* LedSymbol.swift */; };
+		4E2FB3C624D393F900C2B41F /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2FB3C524D393F900C2B41F /* Pie.swift */; };
+		4E3F80B524D26EBC002A34A6 /* KeplersThirdLawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F80B424D26EBC002A34A6 /* KeplersThirdLawView.swift */; };
+		4E3F80B724D38576002A34A6 /* KeplersSecondLaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F80B624D38576002A34A6 /* KeplersSecondLaw.swift */; };
+		4E3F80B924D385A4002A34A6 /* KeplersFirstLaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F80B824D385A3002A34A6 /* KeplersFirstLaw.swift */; };
+		4E41CBA624C21DF500E984BC /* TwetchWatermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41CBA524C21DF500E984BC /* TwetchWatermark.swift */; };
+		4E51C46E24C2473B0002CCBE /* Keplers Laws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51C46D24C2473B0002CCBE /* Keplers Laws.swift */; };
+		4E5D41B424D86DEF004C9C63 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41AA24D86DEF004C9C63 /* Venus.usdz */; };
+		4E5D41B524D86DEF004C9C63 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41AB24D86DEF004C9C63 /* Jupiter.usdz */; };
+		4E5D41B624D86DEF004C9C63 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41AC24D86DEF004C9C63 /* Earth.usdz */; };
+		4E5D41B724D86DEF004C9C63 /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41AD24D86DEF004C9C63 /* Mercury.usdz */; };
+		4E5D41B824D86DEF004C9C63 /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41AE24D86DEF004C9C63 /* Moon.usdz */; };
+		4E5D41B924D86DEF004C9C63 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41AF24D86DEF004C9C63 /* Sun.usdz */; };
+		4E5D41BA24D86DEF004C9C63 /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41B024D86DEF004C9C63 /* Uranus.usdz */; };
+		4E5D41BB24D86DEF004C9C63 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41B124D86DEF004C9C63 /* Neptune.usdz */; };
+		4E5D41BC24D86DEF004C9C63 /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41B224D86DEF004C9C63 /* Saturn.usdz */; };
+		4E5D41BD24D86DEF004C9C63 /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D41B324D86DEF004C9C63 /* Mars.usdz */; };
+		4E5D41BF24D86E09004C9C63 /* PlanetsInOutSolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D41BE24D86E09004C9C63 /* PlanetsInOutSolarSystem.swift */; };
+		4E6D9F2924C210EB004B520A /* TwetchSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D9F2824C210EB004B520A /* TwetchSun.swift */; };
+		4E7336BC24BFF2C900941877 /* SIUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7336BB24BFF2C900941877 /* SIUnitsView.swift */; };
+		4E7336BE24BFFBFE00941877 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7336BD24BFFBFE00941877 /* SunView.swift */; };
+		4E7336C424C0B9D700941877 /* MovingSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7336C324C0B9D700941877 /* MovingSun.swift */; };
+		4E7336C624C10D7C00941877 /* BitcoinSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7336C524C10D7C00941877 /* BitcoinSymbol.swift */; };
+		4E88347A24B7C2D500D7F7CE /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88347924B7C2D500D7F7CE /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +79,39 @@
 		4E05BAA324B55B7D00489CBC /* PhysicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E05BAA724B55B7D00489CBC /* PhysicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsUITests.swift; sourceTree = "<group>"; };
 		4E05BAA924B55B7D00489CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E05BAB624B55B9200489CBC /* Brownian motion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Brownian motion.swift"; sourceTree = "<group>"; };
+		4E05BAB724B55B9200489CBC /* TheAtomicHypothesis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheAtomicHypothesis.swift; sourceTree = "<group>"; };
+		4E05BAB824B55B9200489CBC /* Gases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gases.swift; sourceTree = "<group>"; };
+		4E05BAB924B55B9200489CBC /* DifferenceBetweenSolidsAndLiquids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferenceBetweenSolidsAndLiquids.swift; sourceTree = "<group>"; };
+		4E05BABF24B55B9A00489CBC /* Nuclei and Particles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Nuclei and Particles.swift"; sourceTree = "<group>"; };
+		4E05BAC024B55B9A00489CBC /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		4E05BAC124B55B9A00489CBC /* Physics before 1920.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Physics before 1920.swift"; sourceTree = "<group>"; };
+		4E05BAC224B55B9A00489CBC /* Quantum physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Quantum physics.swift"; sourceTree = "<group>"; };
+		4E05BAC724B55BA100489CBC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E1AEE0324D5B6FE005F7A21 /* LedSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedSymbol.swift; sourceTree = "<group>"; };
+		4E2FB3C524D393F900C2B41F /* Pie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		4E3F80B424D26EBC002A34A6 /* KeplersThirdLawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeplersThirdLawView.swift; sourceTree = "<group>"; };
+		4E3F80B624D38576002A34A6 /* KeplersSecondLaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeplersSecondLaw.swift; sourceTree = "<group>"; };
+		4E3F80B824D385A3002A34A6 /* KeplersFirstLaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeplersFirstLaw.swift; sourceTree = "<group>"; };
+		4E41CBA524C21DF500E984BC /* TwetchWatermark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwetchWatermark.swift; sourceTree = "<group>"; };
+		4E51C46D24C2473B0002CCBE /* Keplers Laws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keplers Laws.swift"; sourceTree = "<group>"; };
+		4E5D41AA24D86DEF004C9C63 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		4E5D41AB24D86DEF004C9C63 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		4E5D41AC24D86DEF004C9C63 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		4E5D41AD24D86DEF004C9C63 /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
+		4E5D41AE24D86DEF004C9C63 /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		4E5D41AF24D86DEF004C9C63 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
+		4E5D41B024D86DEF004C9C63 /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		4E5D41B124D86DEF004C9C63 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		4E5D41B224D86DEF004C9C63 /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		4E5D41B324D86DEF004C9C63 /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		4E5D41BE24D86E09004C9C63 /* PlanetsInOutSolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsInOutSolarSystem.swift; sourceTree = "<group>"; };
+		4E6D9F2824C210EB004B520A /* TwetchSun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwetchSun.swift; sourceTree = "<group>"; };
+		4E7336BB24BFF2C900941877 /* SIUnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIUnitsView.swift; sourceTree = "<group>"; };
+		4E7336BD24BFFBFE00941877 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		4E7336C324C0B9D700941877 /* MovingSun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingSun.swift; sourceTree = "<group>"; };
+		4E7336C524C10D7C00941877 /* BitcoinSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinSymbol.swift; sourceTree = "<group>"; };
+		4E88347924B7C2D500D7F7CE /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E05BACB24B55C1200489CBC /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +163,21 @@
 		4E05BA8924B55B7C00489CBC /* Physics */ = {
 			isa = PBXGroup;
 			children = (
+				4E5D41A924D86DEF004C9C63 /* 3d planet models */,
 				4E05BA8A24B55B7C00489CBC /* PhysicsApp.swift */,
 				4E05BA8C24B55B7C00489CBC /* ContentView.swift */,
+				4E05BAC724B55BA100489CBC /* Constants.swift */,
+				4E88347924B7C2D500D7F7CE /* SpringAnimation.swift */,
+				4E7336BB24BFF2C900941877 /* SIUnitsView.swift */,
+				4E7336BD24BFFBFE00941877 /* SunView.swift */,
+				4E7336C524C10D7C00941877 /* BitcoinSymbol.swift */,
+				4E7336C324C0B9D700941877 /* MovingSun.swift */,
+				4E6D9F2824C210EB004B520A /* TwetchSun.swift */,
+				4E41CBA524C21DF500E984BC /* TwetchWatermark.swift */,
+				4E2FB3C424D393E200C2B41F /* Helpfull Views */,
+				4E51C46C24C246B80002CCBE /* 7 The Theory of Gravitation */,
+				4E05BABE24B55B9A00489CBC /* 2 Basic Physics */,
+				4E05BAB524B55B9200489CBC /* 1 Atoms in motion */,
 				4E05BA8E24B55B7D00489CBC /* Assets.xcassets */,
 				4E05BA9324B55B7D00489CBC /* Info.plist */,
 				4E05BA9024B55B7D00489CBC /* Preview Content */,
@@ -130,6 +211,66 @@
 			path = PhysicsUITests;
 			sourceTree = "<group>";
 		};
+		4E05BAB524B55B9200489CBC /* 1 Atoms in motion */ = {
+			isa = PBXGroup;
+			children = (
+				4E05BAB624B55B9200489CBC /* Brownian motion.swift */,
+				4E05BAB724B55B9200489CBC /* TheAtomicHypothesis.swift */,
+				4E05BAB824B55B9200489CBC /* Gases.swift */,
+				4E05BAB924B55B9200489CBC /* DifferenceBetweenSolidsAndLiquids.swift */,
+			);
+			path = "1 Atoms in motion";
+			sourceTree = "<group>";
+		};
+		4E05BABE24B55B9A00489CBC /* 2 Basic Physics */ = {
+			isa = PBXGroup;
+			children = (
+				4E05BABF24B55B9A00489CBC /* Nuclei and Particles.swift */,
+				4E05BAC024B55B9A00489CBC /* Intro.swift */,
+				4E05BAC124B55B9A00489CBC /* Physics before 1920.swift */,
+				4E05BAC224B55B9A00489CBC /* Quantum physics.swift */,
+			);
+			path = "2 Basic Physics";
+			sourceTree = "<group>";
+		};
+		4E2FB3C424D393E200C2B41F /* Helpfull Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E2FB3C524D393F900C2B41F /* Pie.swift */,
+				4E1AEE0324D5B6FE005F7A21 /* LedSymbol.swift */,
+			);
+			path = "Helpfull Views";
+			sourceTree = "<group>";
+		};
+		4E51C46C24C246B80002CCBE /* 7 The Theory of Gravitation */ = {
+			isa = PBXGroup;
+			children = (
+				4E51C46D24C2473B0002CCBE /* Keplers Laws.swift */,
+				4E3F80B824D385A3002A34A6 /* KeplersFirstLaw.swift */,
+				4E3F80B624D38576002A34A6 /* KeplersSecondLaw.swift */,
+				4E3F80B424D26EBC002A34A6 /* KeplersThirdLawView.swift */,
+				4E5D41BE24D86E09004C9C63 /* PlanetsInOutSolarSystem.swift */,
+			);
+			path = "7 The Theory of Gravitation";
+			sourceTree = "<group>";
+		};
+		4E5D41A924D86DEF004C9C63 /* 3d planet models */ = {
+			isa = PBXGroup;
+			children = (
+				4E5D41AA24D86DEF004C9C63 /* Venus.usdz */,
+				4E5D41AB24D86DEF004C9C63 /* Jupiter.usdz */,
+				4E5D41AC24D86DEF004C9C63 /* Earth.usdz */,
+				4E5D41AD24D86DEF004C9C63 /* Mercury.usdz */,
+				4E5D41AE24D86DEF004C9C63 /* Moon.usdz */,
+				4E5D41AF24D86DEF004C9C63 /* Sun.usdz */,
+				4E5D41B024D86DEF004C9C63 /* Uranus.usdz */,
+				4E5D41B124D86DEF004C9C63 /* Neptune.usdz */,
+				4E5D41B224D86DEF004C9C63 /* Saturn.usdz */,
+				4E5D41B324D86DEF004C9C63 /* Mars.usdz */,
+			);
+			path = "3d planet models";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +287,9 @@
 			dependencies = (
 			);
 			name = Physics;
+			packageProductDependencies = (
+				4E05BACA24B55C1200489CBC /* PureSwiftUI */,
+			);
 			productName = Physics;
 			productReference = 4E05BA8724B55B7C00489CBC /* Physics.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +361,9 @@
 				Base,
 			);
 			mainGroup = 4E05BA7E24B55B7B00489CBC;
+			packageReferences = (
+				4E05BAC924B55C1200489CBC /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+			);
 			productRefGroup = 4E05BA8824B55B7C00489CBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +380,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5D41BC24D86DEF004C9C63 /* Saturn.usdz in Resources */,
+				4E5D41B824D86DEF004C9C63 /* Moon.usdz in Resources */,
 				4E05BA9224B55B7D00489CBC /* Preview Assets.xcassets in Resources */,
+				4E5D41B924D86DEF004C9C63 /* Sun.usdz in Resources */,
+				4E5D41BD24D86DEF004C9C63 /* Mars.usdz in Resources */,
+				4E5D41B624D86DEF004C9C63 /* Earth.usdz in Resources */,
+				4E5D41BA24D86DEF004C9C63 /* Uranus.usdz in Resources */,
+				4E5D41B424D86DEF004C9C63 /* Venus.usdz in Resources */,
 				4E05BA8F24B55B7D00489CBC /* Assets.xcassets in Resources */,
+				4E5D41BB24D86DEF004C9C63 /* Neptune.usdz in Resources */,
+				4E5D41B524D86DEF004C9C63 /* Jupiter.usdz in Resources */,
+				4E5D41B724D86DEF004C9C63 /* Mercury.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +416,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E05BABA24B55B9200489CBC /* Brownian motion.swift in Sources */,
+				4E05BAC824B55BA100489CBC /* Constants.swift in Sources */,
+				4E05BAC324B55B9A00489CBC /* Nuclei and Particles.swift in Sources */,
+				4E88347A24B7C2D500D7F7CE /* SpringAnimation.swift in Sources */,
+				4E3F80B724D38576002A34A6 /* KeplersSecondLaw.swift in Sources */,
+				4E1AEE0424D5B6FE005F7A21 /* LedSymbol.swift in Sources */,
+				4E05BAC624B55B9A00489CBC /* Quantum physics.swift in Sources */,
+				4E5D41BF24D86E09004C9C63 /* PlanetsInOutSolarSystem.swift in Sources */,
+				4E7336BE24BFFBFE00941877 /* SunView.swift in Sources */,
+				4E2FB3C624D393F900C2B41F /* Pie.swift in Sources */,
+				4E05BAC424B55B9A00489CBC /* Intro.swift in Sources */,
+				4E05BAC524B55B9A00489CBC /* Physics before 1920.swift in Sources */,
+				4E3F80B524D26EBC002A34A6 /* KeplersThirdLawView.swift in Sources */,
+				4E05BABD24B55B9200489CBC /* DifferenceBetweenSolidsAndLiquids.swift in Sources */,
+				4E7336BC24BFF2C900941877 /* SIUnitsView.swift in Sources */,
+				4E3F80B924D385A4002A34A6 /* KeplersFirstLaw.swift in Sources */,
+				4E6D9F2924C210EB004B520A /* TwetchSun.swift in Sources */,
+				4E51C46E24C2473B0002CCBE /* Keplers Laws.swift in Sources */,
 				4E05BA8D24B55B7C00489CBC /* ContentView.swift in Sources */,
+				4E05BABC24B55B9200489CBC /* Gases.swift in Sources */,
+				4E7336C624C10D7C00941877 /* BitcoinSymbol.swift in Sources */,
+				4E05BABB24B55B9200489CBC /* TheAtomicHypothesis.swift in Sources */,
+				4E41CBA624C21DF500E984BC /* TwetchWatermark.swift in Sources */,
 				4E05BA8B24B55B7C00489CBC /* PhysicsApp.swift in Sources */,
+				4E7336C424C0B9D700941877 /* MovingSun.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +760,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E05BAC924B55C1200489CBC /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E05BACA24B55C1200489CBC /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E05BAC924B55C1200489CBC /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E05BA7F24B55B7B00489CBC /* Project object */;
 }
